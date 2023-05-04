@@ -42,6 +42,18 @@ a.externo::after {
     content: '\00A0\1F517' ;
 }
 
+p.degradeP {
+    background-image: linear-gradient(to bottom, #83e1ad48, white);
+    
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.37);
+}
+
+p#centro {
+    text-align: center;
+}
+
 /* Estilo do Body */
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -66,7 +78,7 @@ header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 600px;
+    max-width: 700px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -77,15 +89,16 @@ header > p {
 
 /* Estilo nav do menu no Body */
 nav {
+    text-align: center;
     background-color: var(--cor5);
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 /* Estilo nav do menu no Body */
 nav > a {
     color: var(--cor1);
-    padding: 10px;
+    padding: 5px 85px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -104,7 +117,7 @@ nav > a:hover {
 main {
 
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -119,7 +132,10 @@ main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
-    font-size: 1.6em;
+    font-size: 1.8em;
+    text-indent: 15px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    border-radius: 15px;
 }
 
 /* Estilo do main h2, subtitulo no main dentro do Body */
@@ -130,16 +146,20 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor2), transparent);
     text-indent: 10px;
     font-weight: normal;
+    border-radius: 10px;
     
 }
 
 /* Estilo do main p, paragrafo no main dentro do Body */
 main p {
-    margin: 15px 0px;
+    margin: 25px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: justify;
-    text-indent: 30px;
+    font-weight: normal;
+    text-indent: 15px;
     font-size: 1em;
-    line-height: 2.3em;
+    line-height: 2.2em;
 }
 
 /* Estilo do main strong, palavra em negrito no main dentro do Body */
@@ -224,6 +244,11 @@ aside > ul {
     list-style-type: '\2705\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+aside > p {
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
 }
 
 /* Estilo do main rodapé no main dentro do Body */
