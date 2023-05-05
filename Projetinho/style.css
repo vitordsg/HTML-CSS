@@ -24,7 +24,7 @@ body {
     width: 10em;
     height: 10em;
     background-color: yellow;
-    border-radius: 50%;
+    border-radius: 60%;
     box-shadow: 0 0 15em rgba(255, 255, 255, 0.644);
 
 }
@@ -32,7 +32,7 @@ body {
 .earth,.moon {
     position: absolute;
     border-style: solid;
-    border-color: white transparent transparent transparent;
+    border-color: rgba(255, 255, 255, 0.116) transparent transparent transparent;
     border-width: 0.1em 0.1em 0 0;
     border-radius: 50%;
 }
@@ -42,7 +42,7 @@ body {
     left: 5em;
     width: 30em;
     height: 30em;
-    animation: orbit 36.5s linear infinite;
+    animation: orbit 45s linear infinite;
 
 }
 
@@ -51,13 +51,13 @@ body {
     right: 0;
     width: 8em;
     height: 8em;
-    animation: orbit 2.7s linear infinite;
+    animation: orbit 15s linear infinite;
 }
 
 .earth::before, .moon::before {
     content: '';
     position: absolute;
-    border-radius: 50%;
+    border-radius: 500%;
 }
 
 .earth::before {
