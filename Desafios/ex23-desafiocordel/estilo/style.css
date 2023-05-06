@@ -1,5 +1,73 @@
 @charset "UTF-8";
 
-body {
-    background-color: aquamarine;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+      
+}
+
+header {
+    /*background-image: url('../imagens/opequenoprincipe.jpg');*/
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+
+    /* Letras em maiusculo */
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+
+}
+
+header a, footer a {
+    color:white;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 50px;
+}
+
+section.normal {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+section.imagem {
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgb(46, 46, 46);
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
