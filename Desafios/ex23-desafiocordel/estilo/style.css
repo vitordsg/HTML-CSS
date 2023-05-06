@@ -18,14 +18,17 @@
 }
 
 html, body {
-    
+
     font-family: var(--fonte1);
     min-height: 100vh;
       
 }
 
 header {
-    /*background-image: url('../imagens/opequenoprincipe.jpg');*/
+    background-image: url('../imagens/opequenoprincipe2.jpg');
+    background-size: cover;
+    background-position: center center;
+
     background-color: black;
     text-align: center;
     padding: 30px;
@@ -74,6 +77,11 @@ section {
     
 }
 
+section > p {
+
+    padding: 0.5em;
+}
+
 section.normal {
 
     background-color: white;
@@ -84,15 +92,45 @@ section.imagem {
 
     background-color: rgb(78, 78, 78);
     color: white;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 section.imagem > p {
 
     display: inline-block;
     padding: 10px;
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.096);
+    border-radius: 15px;
+    text-shadow: 1px 1px 0px black;
+
     
 }
+
+section#img01 {
+
+    background-image: url('../imagens/opequenoprincipe4.jpg');
+    background-position: center center;
+    
+}
+
+section#img02 {
+
+    background-image: url('../imagens/opequenoprincipe.jpg');
+    background-position: center center;
+    
+}
+
+section#img03 {
+
+    background-image: url('../imagens/opequenoprincipe3.jpg');
+    background-position: center center;
+    
+}
+
+
 
 footer {
 
