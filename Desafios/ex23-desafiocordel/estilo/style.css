@@ -26,8 +26,9 @@ html, body {
 
 header {
     background-image: url('../imagens/opequenoprincipe2.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
+    
 
     background-color: black;
     text-align: center;
