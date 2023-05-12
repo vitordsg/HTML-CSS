@@ -9,30 +9,31 @@
 <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p><label for="inome">Nome</label>
+
+        <p><label for="inome">Nome</label> <!-- Caixa de Nome -->
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
         </p>
 
-        <p><label for="imedia">Média</label>
+        <p><label for="imedia">Média</label> <!-- Caixa de Notas/Numeros -->
             <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" required  value="5" step="0.1">
         </p>
 
         <p>
-            <label for="imes">Período Letivo</label>
+            <label for="imes">Período Letivo</label> <!-- Caixa de Período Letivo/ Ano/Mês -->
             <input type="month" name="mes" id="imes" value="2020-07">
         </p>
 
         <p>
-            <label for="idia">Dia da Prova</label>
+            <label for="idia">Dia da Prova</label> <!-- Caixa do Dia da Prova/ Ano/Mês/Dia -->
             <input type="date" name="dia" id="idia" value="2020-07-14">
         </p>
 
         <p>
-            <label for="ihora">Horário da Prova</label>
+            <label for="ihora">Horário da Prova</label> <!-- Horário da Prova/ Horas/ Hora -->
             <input type="time" name="hora" id="ihora" >
         </p>
 
-        <p>
+        <p> <!-- Botões de Enviar/Limpar -->
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
