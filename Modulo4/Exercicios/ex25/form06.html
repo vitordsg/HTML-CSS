@@ -10,20 +10,24 @@
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="icor">Cor: </label>
+            <!--Seleção de Cor-->
+            <label for="icor">Cor: </label> 
             <input type="color" name="cor" id="icor" value="#00ff00">
         </p>
 
         <p>
-            <label for="inivel">Nivel de Satisfação: </label>
+            <!-- Nivel de Satisfação -->
+            <label for="inivel">Nivel de Satisfação: </label> 
             <input type="range" name="nivel" id="inivel" min="1" max="5" value="1">
         </p>
 
         <p>
-            <label for="ifoto">Foto do Perfil</label>
+            <!--Enviar Foto/Envio de Arquivo -->
+            <label for="ifoto">Foto do Perfil</label> 
             <input type="file" name="foto" id="ifoto">
         </p>
 
+        <!-- Botões de Enviar/Limpar -->
         <p><input type="submit" value="Enviar"></p>
         <p><input type="reset" value="Limpar"></p>
     </form>

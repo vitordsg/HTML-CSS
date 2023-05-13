@@ -10,26 +10,33 @@
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
 
-        <p><label for="inome">Nome</label> <!-- Caixa de Nome -->
+           <!-- Caixa de Nome -->
+        <p><label for="inome">Nome</label>
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
         </p>
 
-        <p><label for="imedia">Média</label> <!-- Caixa de Notas/Numeros -->
+
+           <!-- Caixa de Notas/Numeros -->
+        <p><label for="imedia">Média</label> 
             <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" required  value="5" step="0.1">
         </p>
 
-        <p>
-            <label for="imes">Período Letivo</label> <!-- Caixa de Período Letivo/ Ano/Mês -->
+
+
+        <p> <!-- Caixa de Período Letivo/ Ano/Mês -->
+            <label for="imes">Período Letivo</label> 
             <input type="month" name="mes" id="imes" value="2020-07">
         </p>
 
-        <p>
-            <label for="idia">Dia da Prova</label> <!-- Caixa do Dia da Prova/ Ano/Mês/Dia -->
+
+
+        <p> <!-- Caixa do Dia da Prova/ Ano/Mês/Dia -->
+            <label for="idia">Dia da Prova</label> 
             <input type="date" name="dia" id="idia" value="2020-07-14">
         </p>
 
-        <p>
-            <label for="ihora">Horário da Prova</label> <!-- Horário da Prova/ Horas/ Hora -->
+        <p> <!-- Horário da Prova/ Horas/ Hora -->
+            <label for="ihora">Horário da Prova</label> 
             <input type="time" name="hora" id="ihora" >
         </p>
 
