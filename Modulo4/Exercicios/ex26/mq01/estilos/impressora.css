@@ -2,7 +2,7 @@
 
 /* Estilos para Impressora */
 
-* {
+* { /* Configuração Global */
     margin: 10px;
     padding: 10px;
 }
