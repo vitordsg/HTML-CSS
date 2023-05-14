@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Estilos para Impressora */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none; /* Desliga o menu da folha de impressão */
+}
+
+article {
+    width: 100%; /* Ocupar 100% a largura toda do papel */
+}
+
+article::after {
+    content: 'Esse artigo foi impressora através do site www.cursoemvideo.com'; /* Adiciona o dia, horario ou data que foi impresso esse arquivo */
+}
