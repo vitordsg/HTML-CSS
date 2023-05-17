@@ -23,7 +23,7 @@ Grandes Telas: acima de 1200px
         display: inline-block;
     }
 
-    main {
+    main { /* Definir o limite do conteudo na tela ao estender o site em grandes telas */
         width: 768px;
     }
 }
